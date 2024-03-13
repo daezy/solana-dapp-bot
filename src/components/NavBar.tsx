@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
-import navIcon from "../assets/solana-image.png";
+import { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 
 const NavBar = () => {
   const [isMobile, setIsMobile] = useState(false);
-  const [clicked, setClicked] = useState(false);
+  const [, setClicked] = useState(false);
 
   useEffect(() => {
     setClicked(false);
@@ -19,7 +18,7 @@ const NavBar = () => {
   return (
     <div className="p-5 bg-[#090B1C] flex justify-between items-center ">
       <div className="flex gap-2 items-center">
-        <img src={navIcon} alt="" className="w-12" />
+        <img src={"./logo.png"} alt="" className="w-12" />
         <p className="text-white text-[18px] font-semibold">SOLANA DAPP BOT</p>
       </div>
 

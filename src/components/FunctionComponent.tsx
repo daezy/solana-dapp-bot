@@ -1,5 +1,3 @@
-import React from "react";
-
 const FunctionComponent = () => {
   return (
     <div className="bg-[#090B1C] rounded-md p-6 w-full h-full">

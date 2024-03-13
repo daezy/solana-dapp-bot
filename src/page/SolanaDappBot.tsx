@@ -1,17 +1,14 @@
-import React from "react";
-import solanaImg from "../assets/sol 1.png";
-import stackImg from "../assets/grommet-icons_money.png";
 import FunctionComponent from "../components/FunctionComponent";
 
 const SolanaDappBot = () => {
   return (
     <div className="bg-[rgb(255,255,255,0.04)] p-3 my-5">
-      <div className="  flex lg:flex-row flex-col  rounded-md justify-between gap-5">
+      <div className=" grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <div className="bg-[#090B1C] rounded-md p-4 w-full">
             <div className="p-1 bg-[#C0CFE73B] rounded-md flex items-center justify-between ">
               <div className=" flex items-center  gap-2 p-3">
-                <img src={solanaImg} alt="" className="w-4" />
+                <img src={"./sol 1.png"} alt="" className="w-4" />
                 <div>
                   <p className="text-[#26DDFF] sm:text-[18px] text-[13px]">
                     SOLANA
@@ -29,7 +26,7 @@ const SolanaDappBot = () => {
             </div>
             <div className="flex items-center justify-between mt-2">
               <div className=" flex items-center  gap-2 p-3">
-                <img src={stackImg} alt="" className="w-4" />
+                <img src={"./grommet-icons_money.png"} alt="" className="w-4" />
                 <div>
                   <p className="text-[#fff] sm:text-[13px] text-[9px]">
                     DAILY LIMIT
