@@ -1,0 +1,42 @@
+.radio-container input[type="radio"] {
+  display: none; /* Hide the default radio button */
+}
+
+/* Style for custom radio buttons */
+.radio-container input[type="radio"] + label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 2px solid #aaa; /* Border color */
+  border-radius: 5px;
+}
+
+/* Style for when radio button is checked */
+.radio-container input[type="radio"]:checked + label {
+  background-color: transparent; /* Transparent background when checked */
+  border-color: blue; /* Custom border color when checked */
+  color: blue; /* Custom text color when checked */
+}
+
+p {
+  font-family: "Kanit", sans-serif;
+}
+h1 {
+  font-family: "Kanit", sans-serif;
+}
+
+.placeholder-custom::placeholder {
+  font-family: "Kanit", sans-serif;
+}
+
+.placeholder-custom::placeholder {
+  font-family: "Kanit", sans-serif;
+}
+
+select {
+  font-family: "Kanit", sans-serif;
+}
+
+.select-options {
+  font-family: "Kanit", sans-serif;
+}
